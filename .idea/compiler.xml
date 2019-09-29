@@ -16,8 +16,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="flinkl-example" />
+        <module name="flink-common" />
+        <module name="flink-data-transformation" />
+        <module name="flink-data-source" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="flinkcommon" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

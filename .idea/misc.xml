@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/flinkexample/pom.xml" />
         <option value="$PROJECT_DIR$/flinkl-example/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-common/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-data-transformation/pom.xml" />
       </list>
     </option>
   </component>
