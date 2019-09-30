@@ -17,6 +17,7 @@ import java.util.List;
 /**
  * FlatMap[DataStream->DataStream]
  * FlatMap之于Map在功能上是包含关系，FlatMap常用于将数据集压扁，类比于行转列的概念
+ * 返回条数不受限制
  */
 public class FlatMap {
     public static void main(String[] args) {
