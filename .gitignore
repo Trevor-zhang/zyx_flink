@@ -28,3 +28,31 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
+.idea/workspace.xml
+flink-common/src/main/scala/checkpoints.txt/
+flink-common/src/main/scala/common/utils/
+flink-common/src/test/
+flink-common/target/classes/checkpoints.txt/
+flink-common/target/classes/conf/
+flink-common/target/classes/log4j.properties
+flink-common/target/generated-sources/
+flink-common/target/test-classes/
+flink-data-source/src/test/
+flink-data-source/target/classes/META-INF/
+flink-data-source/target/classes/file.csv
+flink-data-source/target/classes/student.sql
+flink-data-source/target/generated-sources/
+flink-data-source/target/test-classes/
+flink-data-state/src/main/resources/
+flink-data-state/src/test/
+flink-data-state/target/generated-sources/
+flink-data-state/target/test-classes/
+flink-data-transformation/src/main/resources/
+flink-data-transformation/src/test/
+flink-data-transformation/target/classes/META-INF/
+flink-data-transformation/target/generated-sources/
+flink-data-transformation/target/test-classes/
+flink-data-window/src/main/resources/
+flink-data-window/src/test/
+flink-data-window/target/generated-sources/
+flink-data-window/target/test-classes/
