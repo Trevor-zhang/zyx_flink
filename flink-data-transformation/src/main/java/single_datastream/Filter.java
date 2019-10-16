@@ -12,12 +12,12 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 public class Filter {
     public static void main(String[] args) throws Exception {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-        DataStreamSource<Integer> source = env.fromElements(1, 2, 3);
+        DataStreamSource<String> source = env.fromElements("1", "2", "3");
         //筛选出大于2的数
-        SingleOutputStreamOperator<Integer> filter = source.filter(new FilterFunction<Integer>() {
+        SingleOutputStreamOperator<String> filter = source.filter(new FilterFunction<String>() {
             @Override
-            public boolean filter(Integer num) throws Exception {
-                if (num > 2) {
+            public boolean filter(String num) throws Exception {
+                if (Integer.valueOf(num) > 2) {
                     return true;
                 }
                 return false;

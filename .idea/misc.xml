@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/flinkl-example/pom.xml" />
         <option value="$PROJECT_DIR$/flink-common/pom.xml" />
         <option value="$PROJECT_DIR$/flink-data-transformation/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-data-window/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-data-state/pom.xml" />
       </list>
     </option>
   </component>

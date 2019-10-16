@@ -73,7 +73,6 @@ public class SourceFromMysql extends RichSourceFunction<Student> {
      */
     public static void main(String[] args) {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-         ;
         DataStreamSource<Student> dataStreamSource = env.addSource(new SourceFromMysql());
 
         dataStreamSource.print();

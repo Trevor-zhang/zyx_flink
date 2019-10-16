@@ -4,6 +4,8 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-data-source" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-data-state" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-data-transformation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-data-window" charset="UTF-8" />
   </component>
 </project>

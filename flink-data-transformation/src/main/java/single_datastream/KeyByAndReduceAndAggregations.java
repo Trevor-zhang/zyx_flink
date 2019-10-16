@@ -59,7 +59,7 @@ public class KeyByAndReduceAndAggregations {
         //4> (1,3)
         // 2> (2,3)
         //2> (2,7)
-        //可以看出，计算出来的统计值是将没条记录叠加的结果输出
+        //可以看出，计算出来的统计值是将每条记录叠加的结果输出
         DataStream<Tuple2<String, Integer>> sum = keyByStream.sum(1);
         sum.print();
 

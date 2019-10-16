@@ -18,7 +18,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="flink-common" />
         <module name="flink-data-transformation" />
+        <module name="flink-data-window" />
         <module name="flink-data-source" />
+        <module name="flink-data-state" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
